@@ -1,0 +1,48 @@
+body{
+    font-family:"Times New Roman", Times, serif;
+    background-color: #ccc}
+    
+h2{
+    color:black;
+    font-size: 50px;
+    border: solid 4px greenyellow;
+    width: 345px;
+    background-color: blueviolet;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+fieldset{
+    width: 500px;
+    border: 2px solid;
+}
+
+input[type=text], input[type=password], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
